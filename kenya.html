@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Quotes</title>
+    <style>
+        #full-container{
+            text-align: center;
+            margin: 250px;
+            padding: 50px;
+        }
+        .btn{
+          background-color:wheat;
+          border: 3px solid rgba(87, 79, 10, 0.603);
+        }
+        .fresh-quote{
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          font-weight: 500;
+          font-size: xx-large;
+        }
+    </style>
+  </head>
+
+  <body>
+   <section id="full-container">
+     <header>
+      <h2 class="fresh-quote">All fresh quotes for you</h2>
+    </header>
+    <main>
+      <section>
+        <blockquote id="quote"></blockquote>
+        <button class="btn" onclick="loadQuote()">Quotes</button>
+      </section>
+    </main>
+   </section>
+    <script src="assests/kenya.js"></script>
+  </body>
+</html>
